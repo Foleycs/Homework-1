@@ -22,3 +22,23 @@ def shooting_percentage():
   shots_made = eval(input("How many shots did you make?: "))
   shot_percentage = (shots_made / total_shots)*100
   print("Your shot percentage:", shot_percentage, "%")
+  
+shooting_percentage()
+
+
+def coffee():
+  pounds_of_coffee = eval(input("How many pounds of coffee would you like?: "))
+  total_coffee = 10.50 * pounds_of_coffee
+  total_shipping = .86 * pounds_of_coffee
+  total_price = total_coffee + total_shipping +1.50
+  print("Your total is ", "$", total_price)
+  
+coffee()
+
+
+def kilometers_to_miles():
+  total_kilometers = eval(input("How many kilometers did you travel?: "))
+  total_miles = total_kilometers / 1.61
+  print("That's ", total_miles, "miles!")
+  
+kilometers_to_miles()
