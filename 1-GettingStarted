@@ -1,0 +1,24 @@
+def calc_rec_area():
+  length = eval(input("Enter the length: "))
+  width = eval(input("Enter the width: "))
+  area = length * width
+  print("Area =", area)
+  
+calc_rec_are()
+
+
+def calc_volume():
+  length = eval(input("Enter the length: "))
+  width = eval(input("Enter the width: "))
+  height = eval(input("Enter the height: "))
+  volume = length * width * height
+  print("Volume =", volume)
+  
+calc_volume()
+
+
+def shooting_percentage():
+  total_shots = eval(input("How many shots did you take?: "))
+  shots_made = eval(input("How many shots did you make?: "))
+  shot_percentage = (shots_made / total_shots)*100
+  print("Your shot percentage:", shot_percentage, "%")
